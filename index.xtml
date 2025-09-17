@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>https://www.youtube.com/@usafishing360</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="#">Your Channel</a></h1>
+      <nav class="nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Playlists</a>
+        <a href="#" class="nav-link">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="hero">
+      <h2 class="hero-title">Welcome to the channel hub</h2>
+      <p class="hero-desc">Click the big red button below to open the YouTube channel. If the YouTube app is installed, it will try to open in the app; otherwise it will open in the browser.</p>
+
+      <a id="open-channel" class="yt-button" href="https://www.youtube.com/@usafishing360" target="_blank" rel="noopener noreferrer">
+        <span class="yt-play" aria-hidden="true">▶</span>
+        <span class="yt-text">Open Channel on YouTube</span>
+      </a>
+    </section>
+
+    <section class="embed">
+      <h3>Channel Preview</h3>
+      <p>If you prefer, visitors can also use the link above to open the channel directly.</p>
+      <a id="channel-preview" class="preview-card" href="https://www.youtube.com/@usafishing360" target="_blank" rel="noopener noreferrer">
+        <div class="thumb">YouTube</div>
+        <div class="meta">
+          <strong class="ch-title">Your Channel Name</strong>
+          <span class="ch-sub">Tutorials • Videos • More</span>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Channel — Made with ♥</p>
+      <p><a href="https://github.com/your-username/youtube-redirect-app" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
